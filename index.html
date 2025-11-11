@@ -10,32 +10,56 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script" defer></script>
+    <script src="script.js" defer></script>
     <title>Focus on Today</title>
   </head>
   <body>
-      <main>
-        <h1 class="title">Focus on <span>Today</span></h1>
-        <div class="app-container">
-            <h2 class="subtitle"><span>Today</span> <img class="sun-icon" src="./images/Sun.svg" alt=""></h2>
-            <p class="progress-label">Raise the bar by completing your goals!</p>
-            <div class="progress-bar">
-              <div class="progress-value">2/3 Completed</div>
-            </div>
-            <p class="error-label">Please set all the 3 goals!</p>
-            <div class="goal-container">
-              <div class="custom-checkbox"></div>
-              <input class="goal-input" type="text" placeholder="Add new goal">
-            </div>
-            <div class="goal-container">
-              <div class="custom-checkbox"></div>
-              <input class="goal-input" type="text" placeholder="Add new goal">
-            </div>
-            <div class="goal-container">
-              <div class="custom-checkbox"></div>
-              <input class="goal-input" type="text" placeholder="Add new goal">
-            </div>
+    <main>
+      <h1 class="title">Focus on <span>Today</span></h1>
+      <div class="app-container">
+        <h2 class="subtitle">
+          <span>Today</span>
+          <img class="sun-icon" src="./images/Sun.svg" alt="" />
+        </h2>
+        <p class="progress-label">Raise the bar by completing your goals!</p>
+        <div class="progress-bar">
+          <div class="progress-value"> <span>2/3 Completed</span></div>
         </div>
+        <p class="error-label">Please set all the 3 goals!</p>
+        <div class="goal-container ">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="./images/completed.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input class="goal-input" type="text" placeholder="Add new goal" />
+        </div>
+        <div class="goal-container ">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="./images/completed.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input class="goal-input" type="text" placeholder="Add new goal" />
+        </div>
+        <div class="goal-container">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="./images/completed.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input class="goal-input" type="text" placeholder="Add new goal" />
+        </div>
+
+        <p class="quote">"Move one step ahead, today!"</p>
+        <p class="made-with">Made with ❤️ by Suhail Ramzan</p>
+      </div>
     </main>
   </body>
 </html>
