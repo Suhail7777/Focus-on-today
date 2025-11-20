@@ -111,6 +111,7 @@ main {
   align-self: stretch; /*it will stretch the input filed tp parent height*/
   flex-grow: 1;
   font-weight: 500;
+  width: 100%;
 }
 
 .goal-input::placeholder {
